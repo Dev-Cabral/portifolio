@@ -4,8 +4,9 @@ import styled, { createGlobalStyle} from 'styled-components'
 const EstiloGlobal = createGlobalStyle`
   * {
     margin: 0;
-    paddind: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
+    list-style: none;
   }
 
   body {
